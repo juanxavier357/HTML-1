@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <title>404 Not Found</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <style>
+    . {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .titulo {
+      padding-left: 30px;
+    }
+
+    img {
+      margin: 30px;
+    }
+
+    .contenedor {
+      display: flex;
+      align-items: center;
+      justify-items: center;
+    }
+
+    .texto {
+      margin-left: 100px;
+      margin-right: 80px;
+      padding: 30px 50px 60px 50px;
+      align-items: center;
+      font-family: 'Space Mono', monospace;
+    }
+
+    .rectangulo {
+      width: 320px;
+      font-size: 20px;
+      margin-bottom: 30px;
+      color: #4F4F4F;
+    }
+
+    h1 {
+      font-size: 50px;
+      font-weight: 500;
+      color: #333333;
+    }
+
+    button {
+      color: white;
+      padding: 20px;
+      text-decoration: none;
+      background-color: #333333;
+    }
+
+    @media screen and (max-width:800px) {
+      img {
+        margin: 0px;
+        padding: 0px;
+        height: 220px;
+      }
+
+      .contenedor {
+        flex-direction: column;
+
+      }
+
+      .texto {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h1 {
+        font-size: 30px;
+        font-weight: 500;
+        color: #333333;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <p class="titulo"><strong>404 NOT FOUND</strong></p>
+  <div class="contenedor">
+    <div>
+      <img src="images/scarecrow.png" alt="Imagen de espantapájaros" height="360">
+    </div>
+    <div class="texto">
+      <h1>I have bad news for you</h1>
+      <div class="rectangulo">
+        <p class="frase">The page you are looking for might be removed or is temporarily unavailable</p>
+      </div>
+      <button>BACK TO HOMEPAGE</button>
+    </div>
+  </div>
+  <div class="attribution">
+    Coded by <a href="#">Juan Cabello</a>.
+  </div>
+</body>
+
+</html>
