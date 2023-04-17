@@ -13,11 +13,6 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
   <style>
-    . {
-      margin: 0px;
-      padding: 0px;
-    }
-
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -31,21 +26,26 @@
       padding-left: 30px;
     }
 
-    img {
-      margin: 30px;
-    }
-
     .contenedor {
       display: flex;
       align-items: center;
       justify-items: center;
     }
 
+    #imagen {
+      margin: 14px;
+      padding: 0;
+    }
+
+    img {
+      margin: 30px;
+      height: 360px;
+    }
+
     .texto {
       margin-left: 100px;
       margin-right: 80px;
       padding: 30px 50px 60px 50px;
-      align-items: center;
       font-family: 'Space Mono', monospace;
     }
 
@@ -64,35 +64,51 @@
 
     button {
       color: white;
-      padding: 20px;
+      margin: 10px;
+      padding: 30px;
+      margin-bottom: 30px;
       text-decoration: none;
       background-color: #333333;
     }
 
     @media screen and (max-width:800px) {
+
+      .imagen {
+        margin-top: 50px;
+        padding: 7px;
+      }
+
       img {
         margin: 0px;
         padding: 0px;
-        height: 220px;
+        height: 240px;
       }
 
       .contenedor {
-        flex-direction: column;
-
+        margin: 0;
+        padding: 0;
+        display: block;
+        align-items: center;
+        justify-items: center;
       }
 
       .texto {
-        margin-left: 10px;
-        margin-right: 10px;
-        padding: 20px;
+        padding: 10px;
+        margin: 0;
         align-items: center;
         justify-content: center;
       }
 
       h1 {
-        font-size: 30px;
+        padding-right: 40px;
+        font-size: 35px;
         font-weight: 500;
         color: #333333;
+      }
+
+      .rectangulo {
+        width: 270px;
+        font-size: 15px;
       }
     }
   </style>
@@ -101,8 +117,8 @@
 <body>
   <p class="titulo"><strong>404 NOT FOUND</strong></p>
   <div class="contenedor">
-    <div>
-      <img src="images/scarecrow.png" alt="Imagen de espantapájaros" height="360">
+    <div class="imagen">
+      <img src="images/scarecrow.png" alt="Imagen de espantapájaros">
     </div>
     <div class="texto">
       <h1>I have bad news for you</h1>
