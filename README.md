@@ -2,16 +2,17 @@
 This is a solution to the HTML 1 project of the Make It Real course.
 
 ## Table of contents
-- [Overview] (#overview)
-#### * The challenge
-#### * Screenshot
-### * My process
-#### * Built with
-#### * What I learned
-#### * Continued development
-#### * Useful resources
-### * Author
-### * Acknowledgments
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
