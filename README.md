@@ -2,7 +2,7 @@
 This is a solution to the HTML 1 project of the Make It Real course.
 
 ## Table of contents
-### * Overview
+### + Overview
 #### * The challenge
 #### * Screenshot
 ### * My process
