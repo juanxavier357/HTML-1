@@ -2,7 +2,7 @@
 This is a solution to the HTML 1 project of the Make It Real course.
 
 ## Table of contents
-### + Overview
+### ° [Overview] (https://github.com/juanxavier357/HTML-1/edit/master/README.md#Overview)
 #### * The challenge
 #### * Screenshot
 ### * My process
