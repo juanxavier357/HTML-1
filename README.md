@@ -13,7 +13,6 @@ This is a solution to the HTML 1 project of the Make It Real course.
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-  Juan Cabello Salirrosas
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
